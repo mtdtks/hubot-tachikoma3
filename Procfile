@@ -1,1 +1,1 @@
-web: bin/hubot --name tachikoma --alias タチコマ
+web: bin/hubot -a cybozulive --name tachikoma --alias タチコマ
