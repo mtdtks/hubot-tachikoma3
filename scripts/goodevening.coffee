@@ -12,6 +12,6 @@
 #
 #
 module.exports = (robot) ->
-  robot.hear /.*おやすみ.*|.*お休み.*/i, (res) ->
+  robot.hear /.*おやすみ.*|.*お休み.*/i, (msg) ->
     msg.send msg.random ["おやすみなさーい！", "おやすみなさい!", "もう寝るんですかー？！", "…ぐぅぐぅ…"]
 
